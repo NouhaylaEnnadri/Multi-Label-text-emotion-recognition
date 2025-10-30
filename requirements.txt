@@ -1,0 +1,18 @@
+# Core
+numpy
+pandas
+matplotlib
+scikit-learn
+
+# NLP
+transformers
+datasets
+torch
+torchaudio
+accelerate
+
+# ASR
+openai-whisper
+jiwer
+
+streamlit
