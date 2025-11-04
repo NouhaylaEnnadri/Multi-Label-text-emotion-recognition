@@ -27,7 +27,7 @@ Multi-Label Emotion Detection/
 
 ---
 
-## 🧠 Model Overview
+##  Model Overview
 
 | Branch         | Features                      | Model                     | Purpose                                |
 | -------------- | ----------------------------- | ------------------------- | -------------------------------------- |
