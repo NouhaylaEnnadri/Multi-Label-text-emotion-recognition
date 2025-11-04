@@ -3,6 +3,11 @@
 This project implements a **hybrid emotion classification system** that detects multiple emotions from text.  
 It combines traditional lexical features (**TF-IDF**) with contextual semantic features from a **transformer (MiniLM)**, using per-label thresholds for balanced multi-label predictions.
 
+You can try the model directly here:
+
+👉 **[GoEmotions Emotion Detector — Live App](https://nouhaylaennadri-speech-text-recognition-app-ngcq8f.streamlit.app/)**
+
+
 ---
 
 ## Project Structure
