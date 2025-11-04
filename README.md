@@ -5,7 +5,7 @@ It combines traditional lexical features (**TF-IDF**) with contextual semantic f
 
 You can try the model directly here:
 
-👉 **[GoEmotions Emotion Detector — Live App](https://nouhaylaennadri-speech-text-recognition-app-ngcq8f.streamlit.app/)**
+ **[GoEmotions Emotion Detector — Live App](https://nouhaylaennadri-speech-text-recognition-app-ngcq8f.streamlit.app/)**
 
 
 ---
