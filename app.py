@@ -9,8 +9,8 @@ os.environ["CUDA_VISIBLE_DEVICES"] = ""
 
 # ---------- page ----------
 st.set_page_config(page_title="GoEmotions — Multi-label", layout="wide")
-st.title("🎭 GoEmotions — Multi-label Emotion Detector")
-st.caption("Hybrid TF-IDF + MiniLM. Lazy-loaded models. CPU only.")
+st.title("GoEmotions — Multi-label Emotion Detector")
+st.caption("Hybrid TF-IDF + MiniLM. Lazy-loaded models.")
 
 # ---------- paths ----------
 MODEL_DIR = "models"
