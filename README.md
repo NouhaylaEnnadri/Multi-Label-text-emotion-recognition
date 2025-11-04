@@ -1,6 +1,4 @@
-
-```markdown
-#  Multi-Label Emotion Detection — GoEmotions (TF-IDF + MiniLM)
+# Multi-Label Emotion Detection — GoEmotions (TF-IDF + MiniLM)
 
 This project implements a **hybrid emotion classification system** that detects multiple emotions from text.  
 It combines traditional lexical features (**TF-IDF**) with contextual semantic features from a **transformer (MiniLM)**, using per-label thresholds for balanced multi-label predictions.
@@ -25,31 +23,32 @@ Multi-Label Emotion Detection/
 ├── requirements.txt              # dependencies
 └── README.md                     # this file
 
-````
+```
 
 ---
 
 ## 🧠 Model Overview
 
-| Branch | Features | Model | Purpose |
-|--------|-----------|--------|----------|
-| **TF-IDF** | Bag-of-words n-grams (1–2) | Logistic Regression (OvR) | Captures explicit emotional keywords |
-| **Embeddings** | SentenceTransformer (MiniLM) | Logistic Regression (OvR) | Captures contextual meaning |
-| **Fusion** | Average of both probabilities | — | Improves robustness and generalization |
+| Branch         | Features                      | Model                     | Purpose                                |
+| -------------- | ----------------------------- | ------------------------- | -------------------------------------- |
+| **TF-IDF**     | Bag-of-words n-grams (1–2)    | Logistic Regression (OvR) | Captures explicit emotional keywords   |
+| **Embeddings** | SentenceTransformer (MiniLM)  | Logistic Regression (OvR) | Captures contextual meaning            |
+| **Fusion**     | Average of both probabilities | —                         | Improves robustness and generalization |
 
 ---
-## Usage 
+
+## Usage
 
 ```bash
 pip install -r requirements.txt
 streamlit run app.py
-````
+```
 
 Then open the Streamlit interface (usually at `http://localhost:8501`) and enter any sentence to see detected emotions and confidence scores.
 
 ---
 
-##  Dataset
+## Dataset
 
 **[GoEmotions](https://huggingface.co/datasets/go_emotions)**
 58k Reddit comments annotated with **27 fine-grained emotions** + 1 neutral class.
@@ -57,11 +56,9 @@ Used here for English multi-label emotion classification.
 
 ---
 
-##  Credits
+## Credits
 
-* Dataset: Google Research (GoEmotions)
-* Embeddings: SentenceTransformers (MiniLM-L6-v2)
-* Implementation: Logistic Regression (scikit-learn)
-* App: Streamlit (for interactive demo)
-
-```
+- Dataset: Google Research (GoEmotions)
+- Embeddings: SentenceTransformers (MiniLM-L6-v2)
+- Implementation: Logistic Regression (scikit-learn)
+- App: Streamlit (for interactive demo)
